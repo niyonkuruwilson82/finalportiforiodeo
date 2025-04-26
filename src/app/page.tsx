@@ -10,14 +10,14 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-500"> KARAMBIZI Deo</span>
+                Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-500">KARAMBIZI Deo</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl text-slate-600 dark:text-slate-300 font-medium">
                 Full Stack Developer & UI/UX designer
               </h2>
               <p className="text-lg sm:text-xl text-slate-700 dark:text-slate-300 leading-relaxed">
                 I create beautiful, functional websites and web applications with modern technologies.
-                Focused on delivering exceptional user experiences, so i'm able to help you with your project
+                Focused on delivering exceptional user experiences, so I&apos;m able to help you with your project.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -30,13 +30,13 @@ export default function Home() {
                   href="#contact"
                   className="px-6 py-3 bg-white dark:bg-slate-700 text-slate-800 dark:text-white rounded-lg font-medium shadow-md hover:shadow-lg transition-all duration-300"
                 >
-                  Contact Me i want to work with you
+                  Contact Me I want to work with you
                 </Link>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center relative">
               <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 bg-gradient-to-br from-primary to-cyan-500 rounded-full flex items-center justify-center text-white text-8xl font-bold shadow-xl">
-                <img src="images/deo2.jpg" alt="no photo" className='rounded-full' />
+                <img src="images/deo2.jpg" alt="no photo" className="rounded-full" />
               </div>
               <div className="absolute -bottom-2 -right-2 bg-accent text-white px-4 py-2 rounded-full shadow-lg text-sm font-medium">
                 Available
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-primary">Who I Am</h3>
               <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-                I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. 
+                I&apos;m a passionate full-stack developer with 5+ years of experience building scalable web applications. 
                 I specialize in modern JavaScript frameworks and have a keen eye for design.
               </p>
               <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
@@ -166,13 +166,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-
-
-
-
-
-
           <div className="text-center mt-12">
             <Link
               href="/projects"
@@ -188,7 +181,7 @@ export default function Home() {
       <section id="contact" className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
-            Ask for  <span className="text-primary">your problem</span>
+            Ask for <span className="text-primary">your problem</span>
           </h2>
           <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-8 sm:p-12">
             <form className="space-y-6">
@@ -235,7 +228,7 @@ export default function Home() {
                   id="message"
                   rows={5}
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 focus:ring-2 focus:ring-primary focus:border-transparent dark:bg-slate-700 dark:text-white"
-                  placeholder="Hi you i'm ready to help you with your project "
+                  placeholder="Hi you I&apos;m ready to help you with your project "
                 ></textarea>
               </div>
               <button
