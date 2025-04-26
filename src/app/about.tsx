@@ -16,8 +16,8 @@ export default function About() {
         <h1>About Me</h1>
         <section className="about-content">
           <p>
-            I'm a professional web developer with expertise in Next.js, React, 
-            and modern web technologies. With 5 years of experience, I've helped
+            I&apos;m a professional web developer with expertise in Next.js, React, 
+            and modern web technologies. With 5 years of experience, I&apos;ve helped
             numerous clients bring their digital visions to life.
           </p>
           <div className="skills">
